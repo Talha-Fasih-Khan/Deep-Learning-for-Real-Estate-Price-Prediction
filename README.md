@@ -19,31 +19,15 @@ The purpose of this project is to develop a model that can accurately estimate h
 * etc. 
 
 ## Project Description
-The dataset used for this study consists of real estate sale prices in King County, USA, and includes attributes such as the number of bedrooms, bathrooms, square footage, condition, location, and more. Also, two different model architectures were utilized in this case study. The initial model consisted of five dense layers with varying numbers of neurons. The final architecture included three dense layers with 10 neurons each, followed by an output layer with one neuron for price prediction. The activation function used was ReLU for the hidden layers and linear for the output layer.
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
+* Data
+  * The dataset used for this study consists of real estate sale prices in King County, USA, and includes attributes such as the number of bedrooms, bathrooms, square footage, condition, location, and more. Also, two different model architectures were utilized in this case study. The initial model consisted of five dense layers with varying numbers of neurons. The final architecture included three dense layers with 10 neurons each, followed by an output layer with one neuron for price prediction. The activation function used was ReLU for the hidden layers and linear for the output layer.
     
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+* Data Preprocessing
+   * To prepare the data for training the neural networks, a subset of relevant features was selected, including 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'sqft_above', and 'sqft_basement'. Additionally, the target variable, 'price', was reshaped and scaled to facilitate processing.
+     
+* Model Architecture 
+   * Two different model architectures were utilized in this case study. The initial model consisted of five dense layers with varying numbers of neurons. The final architecture included three dense layers with 10 neurons each, followed by an output layer with one neuron for price prediction. The activation function used was ReLU for the hidden layers and linear for the output layer.
+     
+* Model Training 
+   * Both models were trained using the Adam optimizer and the mean squared error (MSE) loss function. The training process involved splitting the dataset into training and testing sets. The first model was trained for 100 epochs, while the second model was trained for the same number of epochs with a batch size of 50. The evaluation metrics, such as RMSE, MSE, MAE, R2, and Adjusted R2, were used to assess the model's performance.
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
