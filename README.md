@@ -31,3 +31,7 @@ The purpose of this project is to develop a model that can accurately estimate h
 * Model Training 
    * Both models were trained using the Adam optimizer and the mean squared error (MSE) loss function. The training process involved splitting the dataset into training and testing sets. The first model was trained for 100 epochs, while the second model was trained for the same number of epochs with a batch size of 50. The evaluation metrics, such as RMSE, MSE, MAE, R2, and Adjusted R2, were used to assess the model's performance.
 
+## Deliverables
+* [Deep Learning for Real Estate Price Prediction (Slide Deck)](https://docs.google.com/presentation/d/1VmePbSQIDRemlnL8zFzFpYDnv2jLQSyL18b-60pRH7w/edit?usp=sharing)
+
+* [Deep Learning for Real Estate Price Prediction (Notebook)](https://github.com/Talha-Fasih-Khan/Amazon-Alexa-Review-Analysis-with-NLP/blob/47385063f57178ae1943fbf84c78f3ca7893d91a/Amazon_Review_Analysis.ipynb)
