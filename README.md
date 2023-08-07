@@ -1,5 +1,4 @@
 # Deep-Learning-for-Real-Estate-Price-Prediction
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
 
 #### -- Project Status: [Completed]
 
@@ -34,4 +33,4 @@ The purpose of this project is to develop a model that can accurately estimate h
 ## Deliverables
 * [Deep Learning for Real Estate Price Prediction (Slide Deck)](https://docs.google.com/presentation/d/1VmePbSQIDRemlnL8zFzFpYDnv2jLQSyL18b-60pRH7w/edit?usp=sharing)
 
-* [Deep Learning for Real Estate Price Prediction (Notebook)](https://github.com/Talha-Fasih-Khan/Amazon-Alexa-Review-Analysis-with-NLP/blob/47385063f57178ae1943fbf84c78f3ca7893d91a/Amazon_Review_Analysis.ipynb)
+* [Deep Learning for Real Estate Price Prediction (Notebook)](https://github.com/Talha-Fasih-Khan/Deep-Learning-for-Real-Estate-Price-Prediction/blob/44df85fb05c8027bf268930e19a84439e1700aea/Deep%20Learning%20for%20Real%20Estate%20Price%20Prediction.ipynb)
